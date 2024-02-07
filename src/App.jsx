@@ -5,10 +5,13 @@ import ContactSection from './COMPONENTS/ContactSection'
 function App() {
   return (
     <>
-      <NavigationBar  companyName='Arduino Store' ownerName='SundusSiddiqui'/>
+      <NavigationBar companyName='Arduino Store' ownerName='SundusSiddiqui' />
       <ProductSection  sectionTitle='Boards'/>
       <ProductSection sectionTitle='Shields'/>
       <ContactSection/>
+      
+
+
     </>
   )
 }
